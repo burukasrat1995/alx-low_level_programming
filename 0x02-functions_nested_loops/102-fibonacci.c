@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	int a = 1;
-	int b = 2;
-	int b1 = 0;
+	long int a = 1;
+	long int b = 2;
+	long int b1 = 0;
 	int loop = 0;
 
 	while (loop < 49)
