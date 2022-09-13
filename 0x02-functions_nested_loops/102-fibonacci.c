@@ -12,13 +12,13 @@ int main(void)
 
 	while (loop < 49)
 	{
-		printf("%d, ", a);
+		printf("%ld, ", a);
 		b1 = b;
 		b = a + b;
 		a = b1;
 		loop++;
 	}
-	printf("%d", a);
+	printf("%ld", a);
 	return (0);
 }
 
