@@ -10,14 +10,15 @@ int main(void)
 	int b1 = 0;
 	int loop = 0;
 
-	while (loop < 50)
+	while (loop < 49)
 	{
 		printf("%d, ", a);
-		b = b1;
+		b1 = b;
 		b = a + b;
 		a = b1;
 		loop++;
 	}
+	printf("%d", a);
 	return (0);
 }
 
