@@ -34,7 +34,7 @@ void jack_bauer(void)
 					min++;
 					if (min == 1440)
 					{
-						return void;
+						return;
 					}
 					break;
 				}
