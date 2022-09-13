@@ -10,6 +10,8 @@ void print_alphabet_x10(void)
 
 	while (loop < 10)
 	{
+		alphabet = 97;
+
 		while (alphabet < 123)
 		{
 			_putchar(alphabet);
