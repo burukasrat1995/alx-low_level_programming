@@ -19,7 +19,7 @@ void jack_bauer(void)
 			int min1 = 48;
 
 			_putchar(hour2);
-			_putchar(59);
+			_putchar(58);
 			hour2++;
 			while (min1 < 54)
 			{
@@ -42,6 +42,5 @@ void jack_bauer(void)
 			}
 			break;
 		}
-		break;
 	}
 }	
