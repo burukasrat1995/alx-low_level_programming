@@ -18,7 +18,7 @@ int main(void)
 		a = b1;
 		loop++;
 	}
-	printf("%ld", a);
+	printf("%ld\n", a);
 	return (0);
 }
 
