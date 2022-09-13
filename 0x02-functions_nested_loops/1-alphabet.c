@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - main function
- * Return: 0
+ * print_alphabet - prints the alphabet
+ * Return: void
  */
-int main()
+void print_alphabet(void)
 {
 	int loop = 97;
 
@@ -13,5 +13,4 @@ int main()
 		loop++;
 	}
 	_putchar('\n');
-	return (0);
 }
