@@ -4,7 +4,7 @@
  * main - main function
  * Return: void
  */
-int main()
+int main(void)
 {
 	int number = 0;
 	int result;
@@ -19,6 +19,6 @@ int main()
 		else
 			number++;
 	}
-	printf ("%d", result);
+	printf("%d\n", result);
 	return (0);
 }
