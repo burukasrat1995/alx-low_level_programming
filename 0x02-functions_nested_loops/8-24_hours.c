@@ -31,6 +31,11 @@ void jack_bauer(void)
 					_putchar(min2);
 					_putchar('\n');
 					min2++;
+					min++;
+					if (min == 1440)
+					{
+						return void;
+					}
 					break;
 				}
 				break;
