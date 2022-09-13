@@ -6,6 +6,7 @@
 void jack_bauer(void)
 {
 	int n1, n2, n3, n4, min = 0;
+	
 	n1 = 48;
 	while (n1 < 51)
 	{
