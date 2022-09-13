@@ -5,9 +5,7 @@
  */
 int main(void)
 {
-	long double int a = 1;
-	long double int b = 2;
-	long double int b1 = 0;
+	long double a = 1, b = 2, b1 = 0;
 	int loop = 0;
 
 	while (loop < 97)
