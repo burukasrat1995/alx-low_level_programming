@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdout.h>
+#include <stdio.h>
 /**
  * print_to_98 - prints from n to 98
  * @n: value of n
@@ -7,10 +7,11 @@
  */
 void print_to_98(int n)
 {
-	while (n < 99)
+	while (n < 98)
 	{
 		printf("%d, ", n);
 		n++;
 	}
-	printf("\n");
+
+	printf("%d\n", n);
 }
