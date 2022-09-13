@@ -24,6 +24,7 @@ void jack_bauer(void)
 			while (min1 < 54)
 			{
 				int min2 = 48;
+				
 				_putchar(min1);
 				min1++;
 				while (min2 < 58)
@@ -38,9 +39,7 @@ void jack_bauer(void)
 					}
 					break;
 				}
-				break;
 			}
-			break;
 		}
 	}
-}	
+}
