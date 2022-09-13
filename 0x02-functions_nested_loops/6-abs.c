@@ -2,11 +2,12 @@
 /**
  * _abs - absolute value of a number
  * Return: the absolute value
+ * @c: value of the number
  */
-int _abs(int)
+int _abs(int c)
 {
-	if (int < 0)
-		return (int*-1);
-	else if (int >= 0)
-		return (int);
+	if (c < 0)
+		return (c*-1);
+	else if (c >= 0)
+		return (c);
 }
