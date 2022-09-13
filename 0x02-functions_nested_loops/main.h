@@ -1,1 +1,2 @@
-#include<iostream.h>
+#include<stdio.h>
+void _putchar(int c);
