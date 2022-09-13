@@ -1,45 +1,40 @@
 #include "main.h"
 /**
- * jack_bauer - prints every minutes of a day
+ * jack_bauer - print 24 hr
  * Return: void
  */
 void jack_bauer(void)
 {
-	int min = 0;
-	int hour1 = 48;
+	int n1, n2, n3, n4, hr = 0;
 
-	while (hour1 < 51)
+	while (hr < 24) /* print the time*/
 	{
-		int hour2 = 48;
-
-		_putchar(hour1);
-		hour1++;
-		while (hour2 < 58)
+		n1 = 48;
+		while (n1 < 58)
 		{
-			int min1 = 48;
-
-			_putchar(hour2);
-			_putchar(58);
-			hour2++;
-			while (min1 < 54)
+			_putchar(n1);
+			n2 = 48;
+			while (n2 < 58)
 			{
-				int min2 = 48;
-				
-				_putchar(min1);
-				min1++;
-				while (min2 < 58)
+				_putchar(n2);
+				_putchar(58);
+				n3 = 48;
+				while (n3 < 58)
 				{
-					_putchar(min2);
-					_putchar('\n');
-					min2++;
-					min++;
-					if (min == 1440)
+					_putchar(n3);
+					n4 = 48;
+					while (n4 < 58)
 					{
-						return;
+						_putchar(n2);
+						n4++;
 					}
-					break;
+					n3++;
 				}
+				n2++;
 			}
+			n1++;
 		}
+		_putchar('\n');
+		hr++;
 	}
 }
