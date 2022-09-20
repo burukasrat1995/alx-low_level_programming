@@ -11,19 +11,14 @@ void rev_string(char *s)
 	while (s[i])
 		i++;
 
-	char r[];
-	int n = 0;
+	char r;
+	int n = 0, half = i/2;
 
-	while (i--)
+	while (half--)
 	{
-		r[n] = s[i];
-		n++;
-	}
-
-	n = 0;
-	while (r[n])
-	{
-		s[n] = r[n];
+		r = s[i];
+		s[i] = s[n];
+		s[n] = r;
 		n++;
 	}
 }
